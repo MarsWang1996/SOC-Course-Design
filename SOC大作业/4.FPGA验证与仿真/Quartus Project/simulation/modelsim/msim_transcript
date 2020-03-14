@@ -1,0 +1,140 @@
+# Reading G:/quartus16/modelsim_ase/tcl/vsim/pref.tcl
+# do y_enhance_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying G:/quartus16/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance_top.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:26 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance_top.v 
+# -- Compiling module y_enhance_top
+# 
+# Top level modules:
+# 	y_enhance_top
+# End time: 19:38:26 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/Matrix_Generate_3X3_8Bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:26 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/Matrix_Generate_3X3_8Bit.v 
+# -- Compiling module Matrix_Generate_3X3_8Bit
+# 
+# Top level modules:
+# 	Matrix_Generate_3X3_8Bit
+# End time: 19:38:26 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:26 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance.v 
+# -- Compiling module y_enhance
+# 
+# Top level modules:
+# 	y_enhance
+# End time: 19:38:26 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/SQRT.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:26 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/SQRT.v 
+# -- Compiling module SQRT
+# 
+# Top level modules:
+# 	SQRT
+# End time: 19:38:26 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:27 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v 
+# -- Compiling module Line_Shift_RAM_8Bit
+# 
+# Top level modules:
+# 	Line_Shift_RAM_8Bit
+# End time: 19:38:27 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+F:/Mars/Course\ Design/Current\ Project/y_enhance_quartus {F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:38:27 on Jan 14,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Mars/Course Design/Current Project/y_enhance_quartus" F:/Mars/Course Design/Current Project/y_enhance_quartus/y_enhance_tb.v 
+# -- Compiling module y_enhance_tb
+# 
+# Top level modules:
+# 	y_enhance_tb
+# End time: 19:38:27 on Jan 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  y_enhance_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" y_enhance_top 
+# Start time: 19:38:27 on Jan 14,2020
+# Loading work.y_enhance_top
+# Loading work.y_enhance
+# Loading work.Matrix_Generate_3X3_8Bit
+# Loading work.Line_Shift_RAM_8Bit
+# Loading altera_mf_ver.altshift_taps
+# Loading work.SQRT
+# Loading altera_mf_ver.altsqrt
+# ** Warning: (vsim-3017) F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v(73): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /y_enhance_top/u_y_enhance/u_Matrix_Generate_3X3_8Bit/u_Line_Shift_RAM_8Bit/ALTSHIFT_TAPS_component File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v(73): [TFMPC] - Missing connection for port 'sclr'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.y_enhance_tb
+# End time: 19:38:41 on Jan 14,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.y_enhance_tb 
+# Start time: 19:38:41 on Jan 14,2020
+# Loading work.y_enhance_tb
+# Loading work.y_enhance_top
+# Loading work.y_enhance
+# Loading work.Matrix_Generate_3X3_8Bit
+# Loading work.Line_Shift_RAM_8Bit
+# Loading altera_mf_ver.altshift_taps
+# Loading work.SQRT
+# Loading altera_mf_ver.altsqrt
+# ** Warning: (vsim-3017) F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v(73): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /y_enhance_tb/u_y_enhance_top/u_y_enhance/u_Matrix_Generate_3X3_8Bit/u_Line_Shift_RAM_8Bit/ALTSHIFT_TAPS_component File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) F:/Mars/Course Design/Current Project/y_enhance_quartus/Line_Shift_RAM_8Bit.v(73): [TFMPC] - Missing connection for port 'sclr'.
+add wave -r sim:/y_enhance_tb/*
+# Can't move the Now cursor.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 20:38:22 on Jan 14,2020, Elapsed time: 0:59:41
+# Errors: 5, Warnings: 3

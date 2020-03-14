@@ -1,0 +1,14 @@
+read_file -format verilog {/usr/DCtest3/forDC/Line_Shift_RAM_8Bit.v /usr/DCtest3/forDC/Matrix_Generate_3X3_8Bit.v /usr/DCtest3/forDC/y_enhance.v}
+read_file -format verilog {/usr/DCtest3/forDC/y_enhance_top.v}
+set_wire_load_model -name reference_area_100000 -library smic18_tt
+change_selection [get_s y_enhance_top]
+change_selection [get_s clk]
+create_clock -name "clk" -period 40 -waveform { 0 20  }  { clk  }
+compile -exact_map
+write -hierarchy -format verilog -output /usr/DCtest3/result/netlist_y_enhance.v
+uplevel #0 { report_constraint -significant_digits 2 }
+uplevel #0 { report_area }
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+uplevel #0 { report_transitive_fanout -clock_tree -nosplit }
+write_sdf y_enhance.sdf
+exit

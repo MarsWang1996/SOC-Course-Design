@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "post_img_Y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[4]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[5]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[6]",
+					"strict" : false
+				},
+				{
+					"name" : "post_img_Y[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "per_frame_href",
+					"strict" : false
+				},
+				{
+					"name" : "per_frame_clken",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[7]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[6]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[5]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[4]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "per_img_Y[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

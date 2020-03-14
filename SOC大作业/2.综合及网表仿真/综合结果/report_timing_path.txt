@@ -1,0 +1,70 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : y_enhance_top
+Version: L-2016.03-SP1
+Date   : Fri Jan 10 14:28:13 2020
+****************************************
+
+Operating Conditions: typical   Library: smic18_tt
+Wire Load Model Mode: segmented
+
+  Startpoint: u_y_enhance/Gx_temp2_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_y_enhance/Gx_data_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Line_Shift_RAM_8Bit
+                     reference_area_20000  smic18_tt
+  Matrix_Generate_3X3_8Bit
+                     reference_area_20000  smic18_tt
+  y_enhance_top      reference_area_100000 smic18_tt
+  y_enhance          reference_area_100000 smic18_tt
+  y_enhance_DW01_sub_3
+                     reference_area_20000  smic18_tt
+  y_enhance_DW01_sub_2
+                     reference_area_20000  smic18_tt
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_y_enhance/Gx_temp2_reg[1]/CK (FFDRHDLX)               0.00       0.00 r
+  u_y_enhance/Gx_temp2_reg[1]/Q (FFDRHDLX)                0.60       0.60 r
+  u_y_enhance/U65/Z (AOI21B2HD1X)                         0.18       0.78 r
+  u_y_enhance/U66/Z (AOI222HD1X)                          0.11       0.89 f
+  u_y_enhance/U46/Z (INVHDPX)                             0.08       0.97 r
+  u_y_enhance/U67/Z (OAI221HDLX)                          0.12       1.09 f
+  u_y_enhance/U68/Z (OAI221HDLX)                          0.14       1.23 r
+  u_y_enhance/U69/Z (OAI221HDLX)                          0.16       1.39 f
+  u_y_enhance/U70/Z (OAI221HDLX)                          0.14       1.53 r
+  u_y_enhance/U71/Z (OAI221HDLX)                          0.18       1.70 f
+  u_y_enhance/U44/Z (INVHDPX)                             0.08       1.79 r
+  u_y_enhance/U72/Z (AOI221HD1X)                          0.06       1.85 f
+  u_y_enhance/U73/Z (OAI22B2HD1X)                         0.15       2.00 r
+  u_y_enhance/U42/Z (OAI21HD1X)                           0.38       2.39 f
+  u_y_enhance/U4/Z (INVHDPX)                              0.44       2.82 r
+  u_y_enhance/U54/Z (AOI22HD1X)                           0.14       2.96 f
+  u_y_enhance/U53/Z (INVHDPX)                             0.08       3.04 r
+  u_y_enhance/Gx_data_reg[0]/D (FFDRHDLX)                 0.00       3.04 r
+  data arrival time                                                  3.04
+
+  clock clk (rise edge)                                  40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  u_y_enhance/Gx_data_reg[0]/CK (FFDRHDLX)                0.00      40.00 r
+  library setup time                                     -0.19      39.81
+  data required time                                                39.81
+  --------------------------------------------------------------------------
+  data required time                                                39.81
+  data arrival time                                                 -3.04
+  --------------------------------------------------------------------------
+  slack (MET)                                                       36.77
+
+

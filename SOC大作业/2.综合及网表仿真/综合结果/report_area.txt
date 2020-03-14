@@ -1,0 +1,30 @@
+****************************************
+Report : area
+Design : y_enhance_top
+Version: L-2016.03-SP1
+Date   : Fri Jan 10 14:27:53 2020
+****************************************
+
+Library(s) Used:
+
+    smic18_tt (File: /usr/DCtest3/Version2.4/STD/Synopsys/smic18_tt.db)
+
+Number of ports:                          610
+Number of nets:                          1284
+Number of cells:                          559
+Number of combinational cells:            361
+Number of sequential cells:               181
+Number of macros/black boxes:               0
+Number of buf/inv:                         89
+Number of references:                       1
+
+Combinational area:              11249.849609
+Buf/Inv area:                      592.116989
+Noncombinational area:           10444.895981
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 21694.745590
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)

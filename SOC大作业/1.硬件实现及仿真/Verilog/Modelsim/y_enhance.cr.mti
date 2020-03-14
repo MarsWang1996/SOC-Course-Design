@@ -1,0 +1,9 @@
+{F:/SOC_Experience/Course Design/History Code/Read the whole picture and process it (the program cannot be integrated)/Modelsim_Project/y_enhance.v} {1 {vlog -work work -vopt -nocovercells {F:/SOC_Experience/Course Design/History Code/Read the whole picture and process it (the program cannot be integrated)/Modelsim_Project/y_enhance.v}
+Model Technology ModelSim SE vlog 10.0b Compiler 2011.05 May  5 2011
+-- Compiling module Sobel_enhancement
+-- Compiling module tb_Sobel_enhancement
+
+Top level modules:
+	tb_Sobel_enhancement
+
+} {} {}}

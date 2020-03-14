@@ -1,0 +1,138 @@
+Flow report for y_enhance
+Tue Jan 14 19:23:35 2020
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Tue Jan 14 19:23:35 2020           ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
+; Revision Name                      ; y_enhance                                       ;
+; Top-level Entity Name              ; y_enhance_top                                   ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE6E22I8L                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 450 / 6,272 ( 7 % )                             ;
+;     Total combinational functions  ; 423 / 6,272 ( 7 % )                             ;
+;     Dedicated logic registers      ; 207 / 6,272 ( 3 % )                             ;
+; Total registers                    ; 207                                             ;
+; Total pins                         ; 21 / 92 ( 23 % )                                ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 10,208 / 276,480 ( 4 % )                        ;
+; Embedded Multiplier 9-bit elements ; 4 / 30 ( 13 % )                                 ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/14/2020 19:23:07 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; y_enhance           ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                              ;
++--------------------------------------+---------------------------------------+---------------+---------------+----------------+
+; Assignment Name                      ; Value                                 ; Default Value ; Entity Name   ; Section Id     ;
++--------------------------------------+---------------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 93328256179912.157900098701232        ; --            ; --            ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --            ; y_enhance_tb   ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; y_enhance_tb                          ; --            ; --            ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --            ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --            ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; y_enhance_tb.v                        ; --            ; --            ; y_enhance_tb   ;
+; EDA_TEST_BENCH_MODULE_NAME           ; y_enhance_top                         ; --            ; --            ; y_enhance_tb   ;
+; EDA_TEST_BENCH_NAME                  ; y_enhance_tb                          ; --            ; --            ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --            ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 100                                   ; --            ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; -40                                   ; --            ; --            ; --             ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; y_enhance_top ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; y_enhance_top ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; y_enhance_top ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --            ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --            ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --            ; --             ;
+; TOP_LEVEL_ENTITY                     ; y_enhance_top                         ; y_enhance     ; --            ; --             ;
++--------------------------------------+---------------------------------------+---------------+---------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 5003 MB             ; 00:00:24                           ;
+; Fitter                    ; 00:00:07     ; 1.1                     ; 5793 MB             ; 00:00:09                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4886 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.4                     ; 4990 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4862 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:24     ; --                      ; --                  ; 00:00:37                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-2SHLO5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-2SHLO5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-2SHLO5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-2SHLO5F  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-2SHLO5F  ; Windows 8 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off y_enhance -c y_enhance
+quartus_fit --read_settings_files=off --write_settings_files=off y_enhance -c y_enhance
+quartus_asm --read_settings_files=off --write_settings_files=off y_enhance -c y_enhance
+quartus_sta y_enhance -c y_enhance
+quartus_eda --read_settings_files=off --write_settings_files=off y_enhance -c y_enhance
+
+
+
